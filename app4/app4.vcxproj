@@ -43,6 +43,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <EnableManagedIncrementalBuild>true</EnableManagedIncrementalBuild>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -54,12 +55,12 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\TWS API\test\CppClient\Shared;C:\TWS API\test\CppClient\src;E:\迅雷下载\v6.3.0_20140521_traderapi\v6.3.0_20140521_traderapi_windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\GitRoot\future_viewer\TWS API\test\CppClient\Shared;D:\GitRoot\future_viewer\TWS API\test\CppClient\src;D:\GitRoot\future_viewer\v6.3.0_20140521_traderapi_windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\TWS API\test\CppClient\lib;E:\迅雷下载\v6.3.0_20140521_traderapi\v6.3.0_20140521_traderapi_windows;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>D:\GitRoot\future_viewer\TWS API\test\CppClient\lib;D:\GitRoot\future_viewer\v6.3.0_20140521_traderapi_windows;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>thostmduserapi.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Midl>
